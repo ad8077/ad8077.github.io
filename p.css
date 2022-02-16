@@ -1,0 +1,208 @@
+ /*css reset*/
+ *{
+    margin:0;
+    padding:0;
+}
+/*css variables*/
+:root{
+    --navbar-height:59px;
+}
+/*navigation bar*/
+#navbar{
+    display: flex;
+    align-items: center;
+}
+#navbar{
+    position: relative;
+}
+/*navbar logo and image*/
+
+#logo{
+    margin: 30px 30px;
+}
+
+
+#logo img{ 
+height: 50px;
+margin: 3px 5px;
+}
+/*navbar list*/
+#navbar ul{
+    display:flex;/*row hojatah sedhe*/
+}
+#navbar::before{
+    content: "";
+    background-color: rgb(29, 27, 27);
+    position: absolute;
+    height:100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+#navbar ul li{
+    list-style: none;
+    font-size: 1.3rem;
+}
+#navbar ul li a{
+    color: rgba(247, 246, 245, 0.904);
+    display: block;
+    padding: 3px 30px;
+    border-radius: 20px;
+    text-decoration: none;
+    list-style: none;
+    font-size: 1.4rem;
+}
+#navbar ul li a:hover{
+    color: rgb(32, 32, 32);
+    background-color: aliceblue;
+    display: block;
+    padding: 3px 30px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+/*home section*/
+
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 100px;
+    justify-content: center;
+    align-items: center;
+    }
+
+ #home::before{
+    content: "";
+    background:url('../cover-for-street-food-in-sydney.jpg') no-repeat center center/cover;
+    position: absolute;
+    height:80%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.79;
+     }
+
+#home h1{
+    color: rgb(253, 253, 8);
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+    font-size: 5.5rem;
+    
+}
+
+
+#home p{
+    color: rgb(18, 19, 18);
+    text-align: center;
+    font-size: 2.3rem;
+    font-family: 'Bree Serif', serif;
+    
+}
+
+     /*utility classes*/
+     .hprimary{
+         font-size: 2.8rem;
+         padding: 12px;
+
+     }
+     
+     .btn{
+         padding: 10px 10px;
+         border: 2px solid white;
+         background-color: rgb(122, 245, 65);
+         color:rgb(15, 13, 13);
+         margin:17px;
+         font-size: 1rem;
+         border-radius: 1.5rem;
+         cursor: pointer;
+     }
+     .btn:hover{
+        padding: 10px 10px;
+        border: 2px solid white;
+        background-color: rgb(45, 133, 4);
+        color:rgb(15, 13, 13);
+        margin:17px;
+        font-size: 1rem;
+        border-radius: 1.5rem;
+        cursor: pointer; 
+     }
+     .hsecondary{
+         font-size: 3.8rem;
+         padding: 12px;
+     }
+
+     /*services*/
+
+ #services h1{
+        text-align: center;
+        margin: 107px;
+        padding: 10px 10px;
+        font-size: 3.5rem;
+    }
+
+ boxes{
+display: flex;
+font-size: larger;
+margin: 40px;
+padding: 5px 100px;
+justify-content: space-between;
+text-align: center;
+color: rgb(123, 255, 0);
+z-index: -1;
+background:url('../img/indian5.jpg') no-repeat center center/cover;
+
+   }
+   boxes button{
+    display: flex;
+    margin: 40px;
+    padding: 5px 100px;
+    justify-content: space-between;
+    text-align: center;
+    color: rgb(123, 255, 0);
+    background-color: black;
+    border-radius: 15px;
+    
+       }
+       boxes button:hover{
+        display: flex;
+        margin: 40px;
+        padding: 5px 100px;
+        justify-content: space-between;
+        text-align: center;
+        color: rgb(123, 255, 0);
+        background-color: rgb(247, 234, 234);
+        
+           }
+
+/*signup column*/
+signup{
+    background-color: rgb(247, 114, 6);
+    display: flex;
+    padding: 10px 178px;
+    margin: 5px;
+    justify-content: space-evenly;
+}
+signup #email{
+    border-radius: 15px;
+    text-align: center;
+
+}
+signup #password{
+    border-radius: 15px;
+    text-align: center;
+}
+signup button{
+    border-radius: 5px;
+    color: rgb(156, 247, 11);
+    background-color: black;
+}
+signup button:hover{
+    border-radius: 5px;
+    color: rgb(170, 250, 9);
+    background-color: rgb(228, 227, 227);
+}
+footer p{
+    background-color: black;
+    color:bisque;
+    text-align: center;
+}
