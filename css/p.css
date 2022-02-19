@@ -76,7 +76,7 @@ margin: 3px 5px;
     content: "";
     background:url('../cover-for-street-food-in-sydney.jpg') no-repeat center center/cover;
     position: absolute;
-    height:80%;
+    height:90%;
     width: 100%;
     z-index: -1;
     opacity: 0.79;
@@ -136,6 +136,7 @@ margin: 3px 5px;
  #services h1{
         text-align: center;
         margin: 107px;
+        margin-top:15%;
         padding: 10px 10px;
         font-size: 3.5rem;
     }
